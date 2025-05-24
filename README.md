@@ -2,7 +2,20 @@
 
 This repository contains replication files that use **Stata** and **MATLAB** to simulate demographic and economic scenarios, with a focus on Cambodia. The objective is to analyze population dynamics and economic outcomes under both actual and counterfactual scenarios for academic research purposes.
 
+The analysis reproduces the findings of the paper, which studies the long-term demographic and economic consequences of the Cambodian genocide. A counterfactual demographic scenario is constructed to remove the effects of mass killings and simulate population and age structures from 1950 to 2020 using age-specific fertility and survival rates.
+
+These demographic scenarios are embedded in a production function with capital, land, and skill-heterogeneous labor. The model incorporates intergenerational skill formation to capture the dynamics of human capital over time.
+
+### Key Findings
+
+Although actual GDP per capita temporarily exceeds the counterfactual due to a higher working-age-to-non-working-age ratio and increased capital and land per worker, this advantage reverses over time. Persistent losses in human capital and a slower recovery in skill composition result in lower productivity growth and reduced long-term economic development. The skill composition effect—driven by the loss of educated individuals and delayed human capital transmission—accounts for much of the long-term economic divergence.
+
+### Significance
+
+These findings suggest that mass violence can distort demographic transitions and lead to slower economic growth. This repository provides the full codebase needed to replicate the results and figures presented in the study.
+
 ---
+
 
 ## Step 1: Understand the Data Sources
 
@@ -72,10 +85,11 @@ MATLAB performs the simulations, computations, plotting, and table generation.
 ### Simulation Modules
 
 1. **Wage Simulation**  
-   - `Wage_Main.m`: Simulates wage evolution to determine the optimal gamma value and plots actual vs. predicted wages.
+   - `Wage_Main.m`: Simulates wage profiles to determine the optimal gamma value and plots actual vs. predicted wages.
 
-2. **Solow Model with High-Skill Labor (PiH Cases)**  
-   - `SolowHL_PiH_GDP_Main.m`: Uses the Solow model with high-skill labor under varying transition probabilities for high-skill acquisition (PiH).
+2. **Solow Model with High-Skill Labor (Πᴴ and Πᴸ cases):** 
+
+   - `SolowHL_PiH_GDP_Main.m`: Uses the Solow model with high-skill labor, incorporating varying probabilities that newborns become high-skilled, depending on whether their parents are high-skilled (Πᴴ) or low-skilled (Πᴸ).
 
 3. **Malthusian Model**  
    - `Malthus_GDP_Main.m`: Implements a basic model excluding capital and high-skill labor.
@@ -95,7 +109,7 @@ Each model generates the following:
 - Simulated population matrices  
 - Economic indicators (GDP, capital, land)  
 - Plots and figures for visual analysis  
-- Tables for academic publication and reporting
+- Tables formatted in LaTeX
 
 ---
 
@@ -103,4 +117,4 @@ Each model generates the following:
 
 - Always start with `MasterFile.m` to execute the full pipeline.  
 - Make sure all CSV input files from Stata are placed in the `InputData/` directory.  
-- The modular structure allows you to run each script independently as needed.
+- The modular structure allows each script to be run independently as needed.
