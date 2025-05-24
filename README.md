@@ -1,6 +1,6 @@
-## Replication Code for the Paper: *The Demographic and Economic Effects of the Cambodia Genocide*
+## Replication Code for the Paper: *The Demographic and Economic Effects of the Cambodian Genocide*
 
-This repository contains replication files that use **Stata** and **MATLAB** to simulate demographic and economic scenarios, with a focus on Cambodia. The objective is to analyze population dynamics and economic outcomes under both actual and counterfactual conditions for academic research purposes.
+This repository contains replication files that use **Stata** and **MATLAB** to simulate demographic and economic scenarios, with a focus on Cambodia. The objective is to analyze population dynamics and economic outcomes under both actual and counterfactual scenarios for academic research purposes.
 
 ---
 
