@@ -94,9 +94,9 @@ MATLAB performs the simulations, computations, plotting, and table generation.
 1. **Wage Simulation**  
    - `Wage_Main.m`: Simulates wage profiles to determine the optimal gamma value and plots actual vs. predicted wages.
 
-2. **Solow Model with High-Skill Labor ($ \Pi^H $ and $ \Pi^L $ cases):** 
+2. **Solow Model with High-Skill Labor (**𝛱ᴴ** and **𝛱ᴸ** cases):** 
 
-   - `SolowHL_PiH_GDP_Main.m`: Uses the Solow model with high-skill labor, incorporating varying probabilities that newborns become high-skilled, depending on whether their parents are high-skilled ($ \Pi^H $) or low-skilled ($ \Pi^L $).
+   - `SolowHL_PiH_GDP_Main.m`: Uses the Solow model with high-skill labor, incorporating varying probabilities that newborns become high-skilled, depending on whether their parents are high-skilled (**𝛱ᴴ**) or low-skilled (**𝛱ᴸ**).
 
 3. **Malthusian Model**  
    - `Malthus_GDP_Main.m`: Implements a basic model excluding capital and high-skill labor.
