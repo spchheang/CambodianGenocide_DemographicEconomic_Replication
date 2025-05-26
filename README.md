@@ -2,7 +2,7 @@
 
 This repository contains replication files that use **Stata** and **MATLAB** to simulate demographic and economic scenarios, with a focus on Cambodia. The objective is to analyze population dynamics and economic outcomes under both actual and counterfactual scenarios for academic research purposes.
 
-The analysis reproduces the findings of the paper, which studies the long-term demographic and economic consequences of the Cambodian genocide. A counterfactual demographic scenario is constructed to remove the effects of mass killings and simulate population and age structures from 1950 to 2020 using age-specific fertility and survival rates.
+The analysis reproduces the findings of the paper, which studies the long-term demographic and economic consequences of the Cambodian genocide. A counterfactual demographic scenario is constructed to remove the effects of mass killings and simulate population and age structures from 1950 to 2015 using age-specific fertility and survival rates.
 
 These demographic scenarios are embedded in a production function with capital, land, and skill-heterogeneous labor. The model incorporates intergenerational skill formation to capture the dynamics of human capital over time.
 
@@ -46,7 +46,7 @@ These findings suggest that mass violence can distort demographic transitions an
 
 **Stata** is used to:
 
-- Clean and transform raw demographic data
+- Clean and transform raw demographic data  
 - Construct counterfactual variables:
   1. Counterfactual survival rate  
   2. Counterfactual fertility rate  
@@ -54,8 +54,15 @@ These findings suggest that mass violence can distort demographic transitions an
   4. Fraction of the female population  
   5. High-, low-, and average-skilled wage rates  
   6. High-, low-, and average-skilled saving rates  
-
 - Aggregate and format variables for input into MATLAB simulations
+
+These steps are executed through a master script (`master.do`), which sequentially runs the following Stata scripts:
+
+1. `Demographics.do` – Load and process population data  
+2. `Interpolate_Counterfactual.do` – Generate counterfactual variables  
+3. `ThreeCountries_Comparison.do` – Compare Cambodia with neighboring countries (Thailand, Vietnam, and Laos)  
+4. `CSES2010_Wages.do` – Analyze wage distribution using Cambodia’s CSES 2010 data  
+5. `Saving_Rates.do` – Estimate saving rates by age cohort
 
 ---
 
