@@ -6,7 +6,7 @@ The analysis reproduces the findings of the paper, which studies the long-term d
 
 These demographic scenarios are embedded in a production function with capital, land, and skill-heterogeneous labor. The model incorporates intergenerational skill formation to capture the dynamics of human capital over time.
 
-### Key Findings
+### Main Findings
 
 Although actual GDP per capita temporarily exceeds the counterfactual due to a higher working-age-to-non-working-age ratio and increased capital and land per worker, this advantage reverses over time. Persistent losses in human capital and a slower recovery in skill composition result in lower productivity growth and reduced long-term economic development. The skill composition effect—driven by the loss of educated individuals and delayed human capital transmission—accounts for much of the long-term economic divergence.
 
@@ -60,7 +60,7 @@ These steps are executed through a master script (`master.do`), which sequential
 
 1. `Demographics.do` – Load and process population data  
 2. `Interpolate_Counterfactual.do` – Generate counterfactual variables  
-3. `ThreeCountries_Comparison.do` – Compare Cambodia with neighboring countries (Thailand, Vietnam, and Laos)  
+3. `ThreeCountries_Comparison.do` – Compare Cambodia with neighboring countries (Thailand, and Vietnam)  
 4. `CSES2010_Wages.do` – Analyze wage distribution using Cambodia’s CSES 2010 data  
 5. `Saving_Rates.do` – Estimate saving rates by age cohort
 
