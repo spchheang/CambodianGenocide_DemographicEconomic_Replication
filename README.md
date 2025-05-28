@@ -23,7 +23,7 @@ These findings suggest that mass violence can distort demographic transitions an
 
 1. **United Nations Population Division (UNPD)** – covering the period 1950–2020  
    The primary dataset is obtained from the United Nations Population Division:  
-   [UN DESA Population Division Data Landing Page](https://www.un.org/development/desa/pd/data-landing-page).
+   [https://www.un.org](https://www.un.org).
 
    Extracted data include:
    - Annual population by age groups (both sexes) for Cambodia, Thailand, and Vietnam  
