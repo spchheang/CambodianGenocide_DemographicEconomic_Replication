@@ -34,13 +34,12 @@ These findings suggest that mass violence can distort demographic transitions an
 
 2. **Saving Rate Data**  
    Taken from Angus Deaton and Christina Paxson’s (1999) paper,  
-   *["Growth and Saving among Individuals and Households"](https://www.princeton.edu/~deaton/downloads/Growth_and_Saving_Among_Individuals_and_Households.pdf)*,  
-   specifically Figure 2 on page 215.  
+   *["Growth and Saving among Individuals and Households"](https://www.princeton.edu/~deaton/downloads/Growth_and_Saving_Among_Individuals_and_Households.pdf)*, specifically Figure 2 on page 215.  
    Since official Cambodian saving rate data is unavailable, the **Thai saving rate** is used as a proxy.
 
 3. **Wage Data**  
    Based on the 2010 Cambodia Socio-Economic Survey (CSES), and referenced in Humphreys (2015):  
-   *["Education Premiums in Cambodia: Dummy Variables Revisited and Recent Data"](https://econjwatch.org/articles/education-premiums-in-cambodia-dummy-variables-revisited-and-recent-data)*
+   *["Education Premiums in Cambodia: Dummy Variables Revisited and Recent Data."](https://econjwatch.org/articles/education-premiums-in-cambodia-dummy-variables-revisited-and-recent-data)*
 
 ---
 
