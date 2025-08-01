@@ -17,7 +17,7 @@ These findings suggest that mass violence can distort demographic transitions an
 ---
 
 
-## Step 1: Understand the Data Sources
+## The Data Sources
 
 ### Data Sources Used in This Paper
 
@@ -43,7 +43,7 @@ These findings suggest that mass violence can distort demographic transitions an
 
 ---
 
-## Step 2: Prepare Data with Stata
+## Run Data with Stata
 
 **Stata** is used to:
 
@@ -82,7 +82,7 @@ These steps are executed through a master script (`master.do`), which sequential
 
 ---
 
-## Step 3: Run Simulations in MATLAB
+## Run Simulations in MATLAB
 
 MATLAB performs the simulations, computations, plotting, and table generation.
 
