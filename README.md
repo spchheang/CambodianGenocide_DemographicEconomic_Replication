@@ -1,6 +1,17 @@
-Author: Sreyphea Chheang
+# Replication Code for the Paper:
+# *The Demographic and Economic Effects of the Cambodian Genocide*
 
-## Replication Code for the Paper: *The Demographic and Economic Effects of the Cambodian Genocide*
+## Author
+
+**Sreyphea Chheang**  
+Postdoctoral Fellow, CERDI, Université Clermont Auvergne  
+Ph.D. in Economics, York University (2025)
+
+GitHub: https://github.com/spchheang
+
+---
+
+## Overview
 
 This repository contains replication files that use **Stata** and **MATLAB** to simulate demographic and economic scenarios, with a focus on Cambodia. The objective is to analyze population dynamics and economic outcomes under both actual and counterfactual scenarios for academic research purposes.
 
