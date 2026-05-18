@@ -1,4 +1,4 @@
-# Replication code developed by Sreyphea Chheang.
+Author: Sreyphea Chheang
 
 ## Replication Code for the Paper: *The Demographic and Economic Effects of the Cambodian Genocide*
 
