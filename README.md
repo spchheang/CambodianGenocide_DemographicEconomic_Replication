@@ -1,4 +1,5 @@
-## Replication Code for the Paper: *The Demographic and Economic Effects of the Cambodian Genocide*
+# Replication Code for the Paper: 
+# *The Demographic and Economic Effects of the Cambodian Genocide*
 
 ## Author
 
